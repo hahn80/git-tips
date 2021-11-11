@@ -22,3 +22,7 @@ git commit -m "Commit description"
 git push
 ```
 
+Notes: Repeat step 2) and 3) updating new changes.
+```
+git push origin HEAD:main
+```
