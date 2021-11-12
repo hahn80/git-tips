@@ -10,9 +10,15 @@ gh auth login
 gh repo create myproject -d "Description of my project" --public
 ```
 
+Or use the silient mode:
+```
+gh repo create myproject -y -d "Description of my project" -g Python -l gpl-3.0 --public
+```
+
 2. Update the changes from myproject:
 ```
-git pull --set-upstream origin main
+cd myproject/
+git pull
 ```
 
 3. Edit files, add, commit and upload to github:
