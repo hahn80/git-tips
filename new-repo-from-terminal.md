@@ -12,7 +12,8 @@ gh repo create myproject -d "Description of my project" --public
 
 2. Update the changes from myproject:
 ```
-git pull --set-upstream origin main
+cd myproject/
+git pull
 ```
 
 3. Edit files, add, commit and upload to github:
