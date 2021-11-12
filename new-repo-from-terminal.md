@@ -10,7 +10,7 @@ gh auth login
 gh repo create myproject -d "Description of my project" --public
 ```
 
-Or use the silient mode:
+Or use the silent mode:
 ```
 gh repo create myproject -y -d "Description of my project" -g Python -l gpl-3.0 --public
 ```
