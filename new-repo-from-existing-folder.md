@@ -13,6 +13,7 @@ gh repo create project-name -d "Description for project-name" --public
 
 3. Update the changes when created the new repo:
 ```
+git checkout main
 git pull
 ```
 
