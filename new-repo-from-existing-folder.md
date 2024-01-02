@@ -6,7 +6,13 @@ cd existing_folder/
 git init
 ```
 
-2. Create a remote repo:
+2. Default branch is master! We need to change it!
+
+```
+git branch -m main
+```
+
+4. Create a remote repo:
 ```
 gh repo create project-name -d "Description for project-name" --public
 ```
