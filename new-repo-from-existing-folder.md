@@ -29,3 +29,14 @@ git add .
 git commit -m "Commit description"
 git push
 ```
+
+For a private repository:
+
+```sh
+git remote add origin git@github.com:hahn80/folder.git
+git branch -M main
+git push -u origin main
+```
+
+Now you can set config, add, commit and push.
+

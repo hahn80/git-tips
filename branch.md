@@ -47,3 +47,26 @@ git push origin --delete master
 ```sh
 git submodule update --init --recursive
 ```
+
+6. Create multiple releases:
+
+Check out the current branch:
+
+```sh
+git checkout release/1.0.2
+```
+
+Create a new branch:
+
+```sh
+git checkout -b release/1.0.3
+```
+
+Push the new branch to the remote:
+
+```sh
+git push -u origin release/1.0.3
+```
+
+
+
