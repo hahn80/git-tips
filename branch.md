@@ -48,7 +48,7 @@ git push origin --delete master
 git submodule update --init --recursive
 ```
 
-6. Create multiple releases:
+7. Create multiple releases:
 
 Check out the current branch:
 
